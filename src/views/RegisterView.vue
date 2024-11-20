@@ -13,9 +13,9 @@ const inputs = ref([
     title: 'E-mail'
   },
   {
-    name: 'username',
+    name: 'fullname',
     type: 'text',
-    title: 'Username'
+    title: 'Fullname'
   },
   {
     name: 'password',

@@ -49,7 +49,7 @@ $request.get($config.API_URL + '/blogs?page=1', function (response) {
                 </h2>
                 <div class="entry__meta">
                                     <span class="entry__meta-cat">
-                                        <a>{{ blog.user.username }}</a>
+                                        <a>{{ blog.user.fullname }}</a>
                                         <a>{{ blog.user.email }}</a>
                                     </span>
                   <span class="entry__meta-date">

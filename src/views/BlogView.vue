@@ -60,7 +60,7 @@ const deleteBlog = function () {
               {{ blog.title }}
             </h1>
             <ul class="entry__header-meta">
-              <li class="author">By <a> {{ author.username }} </a></li>
+              <li class="author">By <a> {{ author.fullname }} </a></li>
               <li class="date">{{ blog.created_at }}</li>
               <li class="cat-links">
                 <a>{{ author.email }}</a>
